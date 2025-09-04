@@ -1,12 +1,10 @@
 <template>
   <div class="home">
  <div>
-<img class="robot" src="../assets/robot-home.png" alt="Robot"/>
+<img class="robot" src="../assets/ro.png" alt="Robot"/>
  </div>
  <div>
-<div class="get-started">
-  <a href="" >Get Started</a> building your first robot!
-</div>
+
  </div>
   </div>
 </template>
@@ -22,15 +20,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.home {
-  text-align: center;
+h3 {
+  margin: 40px 0 0;
 }
-.robot {
-height: 500px;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
-.get-started {
- padding-top: 20px;
- font-size: 32px;
+li {
+  display: inline-block;
+  margin: 0 10px;
 }
-
+a {
+  color: #42b983;
+}
 </style>
